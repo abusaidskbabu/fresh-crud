@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 5.2.0
+-- version 5.1.1
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jul 19, 2022 at 08:43 PM
--- Server version: 10.4.24-MariaDB
--- PHP Version: 7.4.29
+-- Generation Time: Sep 04, 2022 at 10:49 AM
+-- Server version: 10.4.22-MariaDB
+-- PHP Version: 7.4.27
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -18,7 +18,7 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Database: `ditech`
+-- Database: `fresh_crud`
 --
 
 -- --------------------------------------------------------
@@ -360,7 +360,7 @@ CREATE TABLE `tb_users` (
 --
 
 INSERT INTO `tb_users` (`id`, `group_id`, `username`, `password`, `email`, `first_name`, `last_name`, `birth_of_day`, `address_1`, `address_2`, `state`, `city`, `phone`, `country`, `avatar`, `active`, `login_attempt`, `last_login`, `created_at`, `updated_at`, `reminder`, `activation`, `remember_token`, `last_activity`, `config`) VALUES
-(1, 1, 'superadmin', '$2y$10$ty.TpWnEjBOk1hoI3M0WIOnyVvrjcyLZ4/7LE9fnBOVRtc4cZekkW', 'concaveit@gmail.com', 'Root', 'Admin', NULL, NULL, NULL, NULL, NULL, NULL, NULL, '1.png', 1, 12, '2021-07-04 03:27:59', '2014-03-12 10:18:46', '2020-05-06 11:52:40', 'SNLyM4Smv12Ck8jyopZJMfrypTbEDtVhGT5PMRzxs', NULL, 'aCERlxnHnHp1gLSO1ndW4Y8jN24d94k3YY7eqTLmrtIryZL6Sh4XsAqIFRY8', 1485431605, NULL),
+(1, 1, 'superadmin', '$2y$10$ty.TpWnEjBOk1hoI3M0WIOnyVvrjcyLZ4/7LE9fnBOVRtc4cZekkW', 'concaveit@gmail.com', 'Root', 'Admin', NULL, NULL, NULL, NULL, NULL, NULL, NULL, '1.png', 1, 12, '2022-09-04 08:47:23', '2014-03-12 10:18:46', '2020-05-06 11:52:40', 'SNLyM4Smv12Ck8jyopZJMfrypTbEDtVhGT5PMRzxs', NULL, 'aCERlxnHnHp1gLSO1ndW4Y8jN24d94k3YY7eqTLmrtIryZL6Sh4XsAqIFRY8', 1485431605, NULL),
 (14, 1, 'vmsl', '$2y$10$6/HaRfOQXl/7TxQjPKVaRuJmpjtfOSCqj.MFeoH0UhlZTLyKAvCNu', 'info@vmsl.com.bd', 'Vmsl', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '14.png', 1, 0, '2022-07-19 18:18:24', '2021-01-19 12:39:52', NULL, NULL, NULL, 'l6ncmYQaeCZsptYll0BPD5nHQfqKZiv5fF3ymxa93jRCDur9nuCUt0qZas58', NULL, NULL);
 
 --

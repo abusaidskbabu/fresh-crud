@@ -1,11 +1,11 @@
 <?php 
 return [
-'cnf_appname' 			=> 'VARCLONE',
-'cnf_appdesc' 			=> 'VARCLONE',
-'cnf_comname' 			=> 'VARCLONE',
-'cnf_email' 			=> 'hello@ditech.co',
-'cnf_metakey' 			=> 'Bangladesh Parliamentarians caucus on Migration and Development',
-'cnf_metadesc' 		=> 'Bangladesh Parliamentarians caucus on Migration and Development',
+'cnf_appname' 			=> 'CRUD',
+'cnf_appdesc' 			=> 'CRUD',
+'cnf_comname' 			=> 'CRUD',
+'cnf_email' 			=> 'hello@crud.co',
+'cnf_metakey' 			=> '',
+'cnf_metadesc' 		=> '',
 'cnf_group' 			=> '3',
 'cnf_activation' 		=> 'manual',
 'cnf_multilang' 		=> '1',
